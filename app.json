@@ -1,0 +1,16 @@
+{
+  "name": "gcal-proxy",
+  "scripts": {},
+  "env": {
+    "GOOGLE_OAUTH_CLIENT_ID": {
+      "required": true
+    },
+    "GOOGLE_OAUTH_CLIENT_SECRET": {
+      "required": true
+    },
+    "GOOGLE_OAUTH_REDIRECT_URI": {
+      "required": true
+    }
+  },
+  "addons": []
+}

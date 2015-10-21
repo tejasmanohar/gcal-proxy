@@ -1,0 +1,53 @@
+{
+  "name": "gcal-proxy",
+  "version": "1.0.0",
+  "description": "Google Calendar data proxy",
+  "main": "dist/server",
+  "private": true,
+  "scripts": {
+    "start": "scripts/start",
+    "precompile": "scripts/precompile",
+    "postinstall": "npm run-script precompile",
+    "prepublish": "npm run-script precompile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejasmanohar/gcal-proxy.git"
+  },
+  "keywords": [
+    "google",
+    "calendar",
+    "google",
+    "calendar",
+    "proxy",
+    "api",
+    "gcal",
+    "data",
+    "data",
+    "proxy"
+  ],
+  "author": "Tejas Manohar <me@tejas.io>",
+  "bugs": {
+    "url": "https://github.com/tejasmanohar/gcal-proxy/issues"
+  },
+  "homepage": "https://github.com/tejasmanohar/gcal-proxy#readme",
+  "devDependencies": {
+    "nodemon": "^1.7.1"
+  },
+  "dependencies": {
+    "babel": "^5.8.23",
+    "babel-runtime": "^5.8.25",
+    "bluebird": "^2.10.2",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "express-promise-router": "0.0.9",
+    "http-error": "0.0.5",
+    "humps": "^1.0.0",
+    "lodash": "^3.10.1",
+    "morgan": "^1.6.1",
+    "qs": "^5.2.0",
+    "superagent": "^1.4.0",
+    "superagent-bluebird-promise": "^2.1.0"
+  }
+}

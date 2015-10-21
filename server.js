@@ -15,9 +15,9 @@ const app = express()
 
 // request logging
 app.use(morgan({
-  'development': 'dev',
-  'staging': 'combined',
-  'production': 'common'
+  development: 'dev',
+  staging: 'combined',
+  production: 'common'
 }[process.env.NODE_ENV] || 'dev'))
 
 // body parser to populate req.body
